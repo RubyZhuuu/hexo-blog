@@ -40,3 +40,17 @@ db.json  //某个文件
 *.log    //所有log文件
 node_modules/  //node_module文件夹下的所有文件
 等等
+
+## 分支的操作
+查看所有分支
+``` bash
+$git branch -A
+```
+切换到某个分支
+``` bash
+$git checkout branch-name
+```
+在当前分支下，合并某个分支
+``` bash
+$git merge branch-name
+```
